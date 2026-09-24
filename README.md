@@ -192,6 +192,7 @@ Two things about this shape are deliberate.
 `server`, and `wayfared -serve=false` measures with no HTTP at all. A monitor
 that only measures while somebody has a page open would leave holes in its
 history exactly where nobody was looking.
+**[ADR 005](docs/adr/005-why-the-scheduler-does-not-depend-on-the-server.md)**
 
 **Checks sit downstream of the measurement.** They observe the counterparties a
 corridor depends on and are attached to the result; nothing they report can
