@@ -161,7 +161,7 @@ LAYER 4 — VERIFIABLE OUTPUT                 [not built — needs a trust model
 
 Layers 3 and 4 have **no packages and no stubs**, deliberately. Speculative
 structure is worse than none: an empty package invites code that has no inputs
-yet.
+yet. **[ADR 003](docs/adr/003-why-layers-3-and-4-have-no-packages.md)**
 
 ### How the pieces fit
 
