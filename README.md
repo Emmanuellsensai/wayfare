@@ -341,6 +341,7 @@ guessed at.
 Every amount, rate and percentage is a **decimal string**, never a JSON number.
 A JSON number invites a client to parse it into a `float64`, reintroducing the
 rounding error the engine avoids internally. There is a test at the boundary.
+**[ADR 006](docs/adr/006-why-money-crosses-the-wire-as-decimal-strings.md)**
 
 ### Snapshot format — version 1
 
