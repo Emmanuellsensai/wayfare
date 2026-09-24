@@ -196,6 +196,7 @@ history exactly where nobody was looking.
 **Checks sit downstream of the measurement.** They observe the counterparties a
 corridor depends on and are attached to the result; nothing they report can
 alter an integrity state or a verdict. See the composition rule below.
+**[ADR 002](docs/adr/002-why-checks-never-move-the-headline.md)**
 
 Significant architectural decisions are recorded as ADRs in
 **[docs/adr/](docs/adr/)**.
